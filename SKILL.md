@@ -126,7 +126,7 @@ description: Use when writing articles, selecting topics, creating hooks, or wor
 
 ### Step 2: 反常识角度挖掘
 
-**执行**：使用 Prompt 模板生成5个反常识角度（详见 references/prompts.md）
+**执行**：使用 Prompt 模板生成5个反常识角度（详见 references/prompts.md → 反常识角度挖掘）
 
 **输出格式**：
 ```
@@ -216,7 +216,7 @@ description: Use when writing articles, selecting topics, creating hooks, or wor
 
 **执行**：
 1. 按大纲逐段生成正文
-2. 强制过「去AI味检查清单」（详见 references/prompts.md）
+2. 强制过「去AI味检查清单」（详见 references/prompts.md → 去AI味处理）
 
 **输出格式**：
 ```
@@ -254,11 +254,7 @@ description: Use when writing articles, selecting topics, creating hooks, or wor
 
 ### 选题灵感触发器（无选题时使用）
 
-1. 最近有没有一件事让你既开心又难过？
-2. 身边有没有人做了一件让你佩服但你不会做的事？
-3. 有没有一个你以前深信不疑、后来发现是错的观点？
-4. 有没有一件事你做了很久才发现做法完全错了？
-5. 最近有没有让你睡不着觉的问题？
+完整8问见 `references/prompts.md → 选题灵感触发器`
 
 ### 优质选题来源
 
@@ -274,6 +270,14 @@ description: Use when writing articles, selecting topics, creating hooks, or wor
 
 ---
 
-## 参考资料
+## Prompt模板引用速查
 
-详细Prompt模板、钩子类型参考、去AI味完整清单见 `references/prompts.md`
+| Step | SKILL.md 位置 | references/prompts.md |
+|------|-------------|----------------------|
+| Step 1 | 三问法评估 | "三问法Prompt" |
+| Step 2 | 5个反常识角度 | "基础版" / "加强版" / "个人态度过滤提示" |
+| Step 3 | 大纲输出格式 | "公众号长文版" / "小红书版" / "大纲自审清单" |
+| Step 4 | 钩子输出格式 | "标准钩子Prompt" / "钩子类型参考" / "钩子优化Prompt" |
+| Step 5 | 去AI味检查清单 | "去AI味检查清单" / "去AI味改写Prompt" |
+
+全部 Prompt 模板详见 `references/prompts.md`
